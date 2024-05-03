@@ -8,15 +8,18 @@ A guide to reproduce [DeepSEA](https://github.com/computational-chemical-biology
 2. Go to the repository directory
 ```
 cd DeepSEA-code
-
-
-3. Download and unzip Zenodo content
 ```
+3. Download Zenodo content
+
 ```
 curl https://zenodo.org/records/11105234/files/DeeSEA_code.zip?download=1 --output DeepSEA_code.zip
-unzip DeepSEA_code.zip
 
 ```
+4. Unzip it
+```
+unzip DeepSEA_code.zip
+```
+
 
 **Repository files map**
 ```
