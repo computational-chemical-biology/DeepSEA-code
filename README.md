@@ -1,12 +1,22 @@
 # DeepSEA-code
 
-A guide to reproduce [DeepSEA](https://github.com/tiagocabralborelli/DeepSEA-project) analysis 
+A guide to reproduce [DeepSEA](https://github.com/computational-chemical-biology/DeepSEA-project) analysis 
+
+**Warning**: To correctly run code in the notebooks, you MUST download the complete datasets and models from our Zenodo repo
+
+1. Clone this repository
+2. Go to the repository directory
+```
+cd DeepSEA-code
 
 
-Primary data were obtained from the following works
-1. [HMD-ARG: hierarchical multi-task deep learning for annotating antibiotic resistance genes](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-021-01002-3)
+3. Download and unzip Zenodo content
+```
+```
+curl https://zenodo.org/records/11105234/files/DeeSEA_code.zip?download=1 --output DeepSEA_code.zip
+unzip DeepSEA_code.zip
 
-2. [NCRD: A non-redundant comprehensive database for detecting antibiotic resistance genes](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10590964/)
+```
 
 **Repository files map**
 ```
@@ -34,3 +44,8 @@ DeepSEA-code:
     
 ```
 
+---
+Primary data were obtained from the following works
+1. [HMD-ARG: hierarchical multi-task deep learning for annotating antibiotic resistance genes](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-021-01002-3)
+
+2. [NCRD: A non-redundant comprehensive database for detecting antibiotic resistance genes](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10590964/)
