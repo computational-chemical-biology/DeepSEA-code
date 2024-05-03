@@ -9,13 +9,25 @@ A guide to reproduce [DeepSEA](https://github.com/computational-chemical-biology
 ```
 cd DeepSEA-code
 ```
-3. Download Zenodo content
+3. Install and activate environment depending on you hardware. The gpu-env installation can take a few minutes since it's necessary to install CUDA dependencies:
+
+GPU environment
+```
+conda env create  -f environment-gpu.yml 
+conda activate deepsea-project
+```
+CPU environment
+```
+conda env create  -f environment-cpu.yml
+conda activate deepsea-project-cpu
+```
+
+4. Download Zenodo content
 
 ```
 curl https://zenodo.org/records/11105234/files/DeeSEA_code.zip?download=1 --output DeepSEA_code.zip
-
 ```
-4. Unzip it
+5. Unzip it
 ```
 unzip DeepSEA_code.zip
 ```
